@@ -8,7 +8,7 @@ from langchain.callbacks import get_openai_callback
 
 def random_key_openai():
     list_key = [
-        "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",
+        "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",
     ]
     OPEN_API_KEY = random.choice(list_key)
     print("OPEN_API_KEY :" +OPEN_API_KEY)

@@ -7,7 +7,7 @@ from src.utils.get_data_external import get_data_external
 import json
 import requests
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"]="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"
 async def check_pligiarism(essay: str | None)->bool:
     headers = {
     'Content-type': 'application/json',
@@ -55,7 +55,7 @@ async def call_gpt(prompt: str | None):
 
 async def generate_images(prompt: str | None,negative_prompt:str|None):
     data = {
-        "key": "e9omMZ7TnFpIy3vN9m4Irxf5CpNY0rK73dHoNXd6p05Y45Y7jtigsWvSNv91",
+        "key": "WmJVb47zE3DJWzGgHdNWpG5l2sQ4nY2ydedPfsjGOMkJz8nKsXYqxn1tPHil",
         "prompt": prompt,
         "negative_prompt": negative_prompt,
         "width": "256",

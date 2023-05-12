@@ -11,7 +11,6 @@ app = FastAPI(
     description="This is template for example project FastAPI"
 )
 
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

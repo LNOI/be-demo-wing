@@ -51,13 +51,25 @@ async def call_gpt(input_map: schemas.PromptSchema):
 async def stable_diffustion(input_map: schemas.StableDiffustionSchema):
     print(input_map.prompt)
     response = await GPT_Services.generate_images(prompt=input_map.prompt,negative_prompt="")
-    if response["message"]=="Your monthly limit exceeded, upgrade subscription now on https://stablediffusionapi.com/pricing":
+    try:
+        if  "message" in response and  response["message"]=="Your monthly limit exceeded, upgrade subscription now on https://stablediffusionapi.com/pricing":
+            response = [
+                "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-0.png",
+                "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-1.png",
+                "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-2.png",
+                "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-3.png"
+            ]
+        else:
+            response = response["output"]
+    except Exception as e:
+        
         response = [
-            "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-0.png",
-            "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-1.png",
-            "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-2.png",
-            "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-3.png"
+                "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-0.png",
+                "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-1.png",
+                "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-2.png",
+                "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/1cbcc7e6-6356-4966-a6e5-a6e4dc0821cd-3.png"
         ]
+    print(response)
     return ResponseModel(status_code=200,
                          message="Generate Image",
                          data=response

@@ -8,15 +8,12 @@ from langchain.chains import LLMChain
 from langchain.callbacks import get_openai_callback
 def random_key_openai():
     list_key = [
-        "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",
-        "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",
-        "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",
-        "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",
+        "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"
     ]
     OPEN_API_KEY = random.choice(list_key)
     print("OPEN_API_KEY :" +OPEN_API_KEY)
     os.environ["OPENAI_API_KEY"]=OPEN_API_KEY
-random_key_openai()
+# random_key_openai()
 
 def suggestion(essay,topic,level,vol,gram):
     random_key_openai()

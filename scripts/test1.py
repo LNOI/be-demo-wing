@@ -11,7 +11,7 @@ from langchain.callbacks import get_openai_callback
 import random
 def random_key_openai():
     list_key = [
-        "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",
+        "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",
     ]
     OPEN_API_KEY = random.choice(list_key)
     print("OPEN_API_KEY :" +OPEN_API_KEY)
@@ -19,7 +19,7 @@ def random_key_openai():
 
 # from langchain.llms import OpenAI
 from langchain.chains import ConversationChain
-random_key_openai()
+# random_key_openai()
 llm = ChatOpenAI(temperature=0,model_name="gpt-3.5-turbo")
 
 essay = f"""

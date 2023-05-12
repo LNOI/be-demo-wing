@@ -1,7 +1,7 @@
 PROMP_SUGGESTION_TEMPLATE = """
-    You are an expert english teacher.\n
-    Based on grammar in {list_grammar}.\n 
-    Based on vocabulary in {list_vocabulary}\n 
+    You are an expert english teacher .\n
+    Based on grammar ielts 7.0 in {list_grammar}.\n 
+    Based on vocabulary ielts 7.0 in {list_vocabulary}\n 
     Given the student essay delimited by ```,\n
     Can you give me suggestion  how to improve grammar, vocabulary, context for the student essay based on vocabulary , grammar and list out a list of vocabulary words, grammar words,context string that need to be replaced with format: 
     ````
