@@ -1,0 +1,8 @@
+sqlalchemy
+fastapi
+uvicorn
+ujson
+llama_index
+langchain
+openai
+python-dotenv

@@ -1,0 +1,21 @@
+GPT-3.5-Turbo:
+Vocabulary:
+
+inadequate -> insufficient
+mismatched -> incompatible
+financial strain -> financial burden
+extracurricular activities -> co-curricular activities
+support system -> network
+Grammar:
+"This essay will explore" -> "This essay explores"
+"Despite the numerous benefits" -> "Despite the benefits"
+"Conducting thorough research" -> "Conduct thorough research"
+"Enhancing their overall experience" -> "Enhance their overall experience"
+"By addressing these potential pitfalls" -> "Addressing these potential pitfalls"
+Context:
+
+"Canadian universities are known for their high academic standards and emphasis on research" -> "Canadian universities are renowned for their high academic standards and emphasis on research"
+"Moreover, studying in Canada opens doors to global networking opportunities" -> "In addition, studying in Canada provides global networking opportunities"
+"Despite the numerous benefits of studying abroad in Canada" -> "Despite the benefits of studying abroad in Canada"
+"Lastly, some students struggle with time management and balancing their academic and personal lives" -> "Finally, some students struggle with time management and balancing their academic and personal lives"
+"By addressing these potential pitfalls, students can fully embrace the advantages of studying in Canada and make the most of their educational journey" -> "Addressing these potential pitfalls enables students to fully embrace the advantages of studying in Canada and make the most of their educational journey"

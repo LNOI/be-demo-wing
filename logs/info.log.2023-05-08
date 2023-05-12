@@ -1,0 +1,159 @@
+2023-05-07 10:48:04,398 -INFO - INFO - Request: GET http://localhost:8000/module1
+2023-05-07 10:48:08,198 -INFO - INFO - Response: 307 | Time: 3800.02 ms
+2023-05-07 10:48:08,218 -INFO - INFO - Request: GET http://localhost:8000/module1/
+2023-05-07 10:48:08,401 -INFO - INFO - Response: 200 | Time: 183.81 ms
+2023-05-07 10:49:09,396 -INFO - INFO - Request: GET http://localhost:8000/module1
+2023-05-07 10:49:12,285 -INFO - INFO - Response: 307 | Time: 2889.17 ms
+2023-05-07 10:49:12,308 -INFO - INFO - Request: GET http://localhost:8000/module1/
+2023-05-07 10:49:12,320 -INFO - INFO - Response: 200 | Time: 11.04 ms
+2023-05-07 10:50:46,398 -INFO - Request: GET http://localhost:8000/module1
+2023-05-07 10:50:46,402 -INFO - Response: 307 | Time: 3.39 ms
+2023-05-07 10:50:46,408 -INFO - Request: GET http://localhost:8000/module1/
+2023-05-07 10:50:46,411 -INFO - Response: 200 | Time: 3.00 ms
+2023-05-07 11:33:21,005 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 11:33:21,008 -INFO - Response: 404 | Time: 3.00 ms
+2023-05-07 11:34:36,930 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 11:34:36,933 -INFO - Response: 307 | Time: 2.50 ms
+2023-05-07 11:34:36,942 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 11:34:51,149 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 11:34:51,154 -INFO - Response: 307 | Time: 4.51 ms
+2023-05-07 11:34:51,163 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 11:36:06,008 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 11:36:06,013 -INFO - Response: 307 | Time: 5.51 ms
+2023-05-07 11:36:06,027 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 11:39:46,236 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 11:39:46,238 -INFO - Response: 307 | Time: 2.00 ms
+2023-05-07 11:39:46,247 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 11:40:40,940 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 11:40:40,947 -INFO - Response: 307 | Time: 7.53 ms
+2023-05-07 11:40:40,958 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 11:47:47,935 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 11:47:47,937 -INFO - Response: 307 | Time: 2.00 ms
+2023-05-07 11:47:47,944 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 13:17:42,120 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:17:42,120 -INFO - Response: 307 | Time: 0.00 ms
+2023-05-07 13:17:42,136 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:19:20,348 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:19:20,348 -INFO - Response: 307 | Time: 0.00 ms
+2023-05-07 13:19:20,363 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:19:26,474 -INFO - Response: 200 | Time: 6110.46 ms
+2023-05-07 13:22:32,133 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:22:32,135 -INFO - Response: 307 | Time: 2.00 ms
+2023-05-07 13:22:32,144 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:22:37,417 -INFO - Response: 200 | Time: 5272.87 ms
+2023-05-07 13:22:57,374 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 13:22:57,376 -INFO - Response: 307 | Time: 1.71 ms
+2023-05-07 13:22:57,381 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 13:23:38,476 -INFO - Response: 200 | Time: 41094.83 ms
+2023-05-07 13:24:50,296 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 13:24:50,299 -INFO - Response: 307 | Time: 3.00 ms
+2023-05-07 13:24:50,305 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 13:24:54,780 -INFO - Response: 200 | Time: 4474.33 ms
+2023-05-07 13:36:45,811 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:36:45,814 -INFO - Response: 307 | Time: 3.00 ms
+2023-05-07 13:36:45,824 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:36:45,918 -INFO - Response: 200 | Time: 93.76 ms
+2023-05-07 13:36:49,402 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:36:49,402 -INFO - Response: 307 | Time: 1.03 ms
+2023-05-07 13:36:49,406 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:36:49,423 -INFO - Response: 200 | Time: 16.58 ms
+2023-05-07 13:36:57,542 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 13:36:57,544 -INFO - Response: 307 | Time: 1.99 ms
+2023-05-07 13:36:57,552 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 13:36:57,588 -INFO - Response: 200 | Time: 36.02 ms
+2023-05-07 13:37:01,687 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 13:37:01,690 -INFO - Response: 307 | Time: 3.00 ms
+2023-05-07 13:37:01,697 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 13:37:01,705 -INFO - Response: 200 | Time: 8.65 ms
+2023-05-07 13:37:10,959 -INFO - Request: GET http://localhost:8000/users
+2023-05-07 13:37:10,961 -INFO - Response: 307 | Time: 2.00 ms
+2023-05-07 13:37:10,968 -INFO - Request: GET http://localhost:8000/users/
+2023-05-07 13:37:10,980 -INFO - Response: 200 | Time: 12.00 ms
+2023-05-07 13:43:35,370 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:43:35,372 -INFO - Response: 307 | Time: 2.63 ms
+2023-05-07 13:43:35,381 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:44:05,179 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:44:05,194 -INFO - Response: 307 | Time: 15.63 ms
+2023-05-07 13:44:05,198 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:44:15,889 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:44:15,892 -INFO - Response: 307 | Time: 3.00 ms
+2023-05-07 13:44:15,903 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:44:54,267 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:44:54,270 -INFO - Response: 307 | Time: 3.03 ms
+2023-05-07 13:44:54,277 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:45:10,705 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:45:10,708 -INFO - Response: 307 | Time: 3.00 ms
+2023-05-07 13:45:10,715 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:45:55,044 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:45:55,044 -INFO - Response: 307 | Time: 0.00 ms
+2023-05-07 13:45:55,066 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:46:15,355 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:46:15,358 -INFO - Response: 307 | Time: 3.01 ms
+2023-05-07 13:46:15,365 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:47:06,163 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:47:06,165 -INFO - Response: 307 | Time: 2.73 ms
+2023-05-07 13:47:06,172 -INFO - Request: POST http://localhost:8000/users/
+2023-05-07 13:47:13,422 -INFO - Response: 200 | Time: 7250.00 ms
+2023-05-07 13:48:09,679 -INFO - Request: POST http://localhost:8000/users
+2023-05-07 13:48:09,683 -INFO - Response: 307 | Time: 4.01 ms
+2023-05-07 13:48:09,691 -INFO - Request: POST http://localhost:8000/users/
+2023-05-08 11:13:48,003 -INFO - Request: POST http://localhost:8000/essay
+2023-05-08 11:13:48,007 -INFO - Response: 404 | Time: 4.00 ms
+2023-05-08 11:14:14,772 -INFO - Request: POST http://localhost:8000/essay
+2023-05-08 11:14:14,775 -INFO - Response: 404 | Time: 3.00 ms
+2023-05-08 11:14:29,751 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:19:40,313 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:20:09,357 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:20:52,487 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:22:16,233 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:24:19,447 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:25:44,535 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:26:23,590 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:28:07,897 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:31:12,678 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:31:24,111 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:32:00,725 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:32:11,629 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:32:57,587 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:33:40,372 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:35:08,136 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:35:24,915 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:35:36,891 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:36:17,831 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:44:27,559 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:45:48,101 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:47:17,066 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:47:32,368 -INFO - Response: 200 | Time: 15302.22 ms
+2023-05-08 11:48:08,097 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:50:10,900 -INFO - Response: 200 | Time: 122802.50 ms
+2023-05-08 11:53:23,626 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:53:44,698 -INFO - Response: 200 | Time: 21071.53 ms
+2023-05-08 11:55:09,490 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:55:22,142 -INFO - Response: 200 | Time: 12652.29 ms
+2023-05-08 11:56:19,765 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:56:27,835 -INFO - Response: 200 | Time: 8069.81 ms
+2023-05-08 11:56:48,233 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:57:12,632 -INFO - Response: 200 | Time: 24400.15 ms
+2023-05-08 11:58:11,494 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 11:58:30,032 -INFO - Response: 200 | Time: 18538.09 ms
+2023-05-08 12:03:18,141 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:03:39,833 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:04:05,843 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:05:00,535 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:05:23,551 -INFO - Response: 200 | Time: 23015.90 ms
+2023-05-08 12:06:02,632 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:13:02,682 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:15:02,954 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:15:24,993 -INFO - Response: 200 | Time: 22038.84 ms
+2023-05-08 12:22:56,009 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:23:04,654 -INFO - Response: 200 | Time: 8645.06 ms
+2023-05-08 12:26:14,114 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:27:07,752 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:32:50,900 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:35:13,347 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:42:31,779 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:42:31,858 -INFO - Response: 200 | Time: 78.51 ms
+2023-05-08 12:44:56,518 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:45:11,288 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:45:32,839 -INFO - Request: POST http://localhost:8000/api/essay
+2023-05-08 12:45:55,963 -INFO - Response: 200 | Time: 23123.92 ms
